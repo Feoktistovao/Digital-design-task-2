@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+ <form class="form">
+     <div class="title"><b>Регистрация</b></div>
+     <hr>
+     <div class="input-group">
+         <div class="input-title">E-mail</div>
+         <input class="input" type="email" placeholder="example@site.domain" required>
+     </div>
+     <div class="input-group-flex input-group">
+         <div class="left">
+         <div class="input-title">Пароль</div>
+         <input class="input" type="password" placeholder="password" required>
+         </div>
+         <div class="right">
+             <div class="input-title">Повторите пароль</div>
+             <input class="input" type="password" placeholder="password" required>
+         </div>
+     </div>
+     <div class="input-group">
+         <div class="input-title">ФИО</div>
+         <input class="input" type="text" placeholder="Игорев Игорь Игоревич" required>
+     </div>
+     <div class="input-group">
+         <div class="left"></div>
+         <div class="input-title">Возраст</div>
+         <input class="input input-half" type="number" placeholder="18" required>
+     </div>
+
+     <hr>
+     <div class="controls">
+         <div class="left">
+     <button class="btn btn-submit" type="submit">Отправить</button>
+         </div>
+         <div class="right">
+     <button class="btn btn-reset" type="reset">Отмена</button>
+         </div>
+     </div>
+ </form>
+</body>
+</html>
